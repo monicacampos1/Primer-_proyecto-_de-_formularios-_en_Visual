@@ -28,5 +28,26 @@ namespace Primer__proyecto__de__formularios__en_Visual
             label4.Text = "Ivania Guzman ";
             label5.Text = "Monica Campos ";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            lblholamundo.Text = " ";
+            label1.Text = " ";
+            label2.Text = "";
+            label3.Text = "";
+            label4.Text = " ";
+            label5.Text = "";
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
