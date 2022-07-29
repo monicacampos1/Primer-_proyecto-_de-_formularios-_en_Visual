@@ -29,33 +29,46 @@ namespace Primer__proyecto__de__formularios__en_Visual
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnclik = new System.Windows.Forms.Button();
+            this.lblholamundo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnclik
             // 
-            this.button1.Location = new System.Drawing.Point(164, 124);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 36);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Haga clic ";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnclik.Location = new System.Drawing.Point(164, 124);
+            this.btnclik.Name = "btnclik";
+            this.btnclik.Size = new System.Drawing.Size(95, 36);
+            this.btnclik.TabIndex = 0;
+            this.btnclik.Text = "Haga clic ";
+            this.btnclik.UseVisualStyleBackColor = true;
+            // 
+            // lblholamundo
+            // 
+            this.lblholamundo.AutoSize = true;
+            this.lblholamundo.Location = new System.Drawing.Point(190, 180);
+            this.lblholamundo.Name = "lblholamundo";
+            this.lblholamundo.Size = new System.Drawing.Size(35, 13);
+            this.lblholamundo.TabIndex = 1;
+            this.lblholamundo.Text = "label1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(423, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblholamundo);
+            this.Controls.Add(this.btnclik);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnclik;
+        private System.Windows.Forms.Label lblholamundo;
     }
 }
 
