@@ -21,7 +21,12 @@ namespace Primer__proyecto__de__formularios__en_Visual
         private void btnclik_Click(object sender, EventArgs e)
         {
 
-            lblholamundo.Text = "Hola Mundo!";
+            lblholamundo.Text = "Cristian Herrera ";
+            label1.Text = "Gustavo Cerna  ";
+            label2.Text = "Lorena Bemudez ";
+            label3.Text = "Fredy Campos ";
+            label4.Text = "Ivania Guzman ";
+            label5.Text = "Monica Campos ";
         }
     }
 }
