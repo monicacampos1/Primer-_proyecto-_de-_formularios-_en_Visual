@@ -16,5 +16,12 @@ namespace Primer__proyecto__de__formularios__en_Visual
         {
             InitializeComponent();
         }
+
+
+        private void btnclik_Click(object sender, EventArgs e)
+        {
+
+            lblholamundo.Text = "Hola Mundo!";
+        }
     }
 }
